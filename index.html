@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Textured background -->
+<div class="textured-bg"></div>
+
+<!-- Header info -->
+<div class="info">
+    <h1>Sylvi's Floating Heart</h1>
+    <p>The heart is 17% of your screen. Touch and drag it or use the controls below.</p>
+</div>
+
+<!-- Floating heart with shadow -->
+<div id="floating-heart">
+    <div class="heart-shape">
+        <div class="heart-name">Sylvi</div>
+    </div>
+</div>
+<div class="heart-shadow" id="heart-shadow"></div>
+
+<!-- Controls panel (without size control) -->
+<div class="controls">
+    <h3>Heart Controls</h3>
+    
+    <div class="slider-container">
+        <label for="speed-slider">Speed: <span id="speed-value">Medium</span></label>
+        <input type="range" min="1" max="10" value="5" class="slider" id="speed-slider">
+    </div>
+    
+    <div class="buttons">
+        <button id="pulse-btn"><i class="fas fa-heartbeat"></i> Pulse</button>
+        <button id="trail-btn"><i class="fas fa-star"></i> Trail On</button>
+        <button id="reset-btn"><i class="fas fa-sync-alt"></i> Reset</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
