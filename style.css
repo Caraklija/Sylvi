@@ -94,13 +94,13 @@
         .heart-name {
             position: absolute;
             color: white;
-            font-size: 3.5vw;
+            font-size: 5vw;
             font-weight: bold;
             font-family: 'Arial Rounded MT Bold', 'Arial', sans-serif;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-            z-index: 15;
+            z-index: 30;
             pointer-events: none;
-            top: 50%;
+            top: 70%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
