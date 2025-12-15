@@ -56,7 +56,7 @@
             
             // Adjust font size proportionally
             const nameElement = document.querySelector('.heart-name');
-            nameElement.style.fontSize = `${finalSize * 0.22}px`;
+            nameElement.style.fontSize = `${finalSize * 0.44}px`;
         }
         
         // Initialize heart position and size
